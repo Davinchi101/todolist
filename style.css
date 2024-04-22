@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  padding: auto 0px;
+}
+
+.items-none {
+  display: none;
+}
+.items-block {
+  display: block;
+}
+
+.container {
+  max-width: 500px;
+  margin: 5rem auto;
+  background-color: steelblue;
+  color: white;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#item-list {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#item-list i {
+  padding: 5px;
+}
+
+#item-form li {
+  font-size: x-large;
+  font-weight: 600;
+  list-style: none;
+}
+
+#item-input {
+  padding: 10px;
+  outline: none;
+}
+#filter {
+  padding: 10px;
+  outline: none;
+  margin-top: 5px;
+}
+
+#add-item {
+  padding: 10px;
+}
+
+#clear {
+  padding: 10px;
+  margin-top: 15px;
+}
+
+/* button {
+  margin-left: 10px;
+} */
