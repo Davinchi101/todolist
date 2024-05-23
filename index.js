@@ -164,3 +164,6 @@ function init() {
 }
 
 init();
+
+
+console.log('Hi')
